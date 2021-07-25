@@ -1,6 +1,6 @@
 #!/bin/bash
 
-S3_BUCKET_NAME=cloudfront-badafca9fd19
+S3_BUCKET_NAME=
 
 npm install
 npm run build
