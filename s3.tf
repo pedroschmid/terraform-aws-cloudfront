@@ -1,6 +1,6 @@
-resource "aws_s3_bucket" "react" {
+resource "aws_s3_bucket" "this" {
   bucket = "${var.S3_BUCKET_NAME}-${random_id.this.hex}"
-  acl    = "public-read"
+  acl    = "private"
   # force_destroy = true
 
   policy = <<EOF
